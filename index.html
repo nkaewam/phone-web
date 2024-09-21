@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Call Button</title>
+    <title>Come see me!</title>
     <style>
         body, html {
             height: 100%;
@@ -11,6 +11,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 1rem;
             background-color: white;
             font-family: Arial, sans-serif;
         }
@@ -21,15 +22,23 @@
             padding: 15px 30px;
             font-size: 18px;
             cursor: pointer;
-            border-radius: 5px;
+            border-radius: 1rem;
             transition: background-color 0.3s;
         }
         .call-button:hover {
             background-color: #333;
         }
+        .live-button {
+            color: black;
+border-radius: 1rem;
+cursor: pointer;
+text-decoration: underline;
+font-size: 12px;
+        }
     </style>
 </head>
 <body>
     <a href="tel:0974912293" class="call-button">097-491-2293</a>
+    <a href="https://maps.app.goo.gl/KVxDD4kKtk4ZNoMA6">Live location</a>
 </body>
 </html>
